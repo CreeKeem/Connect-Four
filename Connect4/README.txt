@@ -1,0 +1,2 @@
+This is the link to the video:
+https://tamucs.sharepoint.com/:v:/r/teams/Team-me148/Shared%20Documents/General/Recordings/Meeting%20in%20_General_-20231204_135711-Meeting%20Recording.mp4?csf=1&web=1&e=JTkJ6z&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D

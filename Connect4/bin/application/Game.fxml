@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.GameBoard">
+   <center>
+      <AnchorPane prefHeight="700.0" prefWidth="900.0" BorderPane.alignment="CENTER">
+         <children>
+            <FlowPane layoutX="100.0" layoutY="60.0" prefHeight="600.0" prefWidth="700.0">
+               <children>
+                  <Circle fx:id="circle1" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle2" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle3" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle4" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle5" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle6" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle7" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle8" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle9" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle10" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle11" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle12" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle13" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle14" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle15" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle16" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle17" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle18" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle19" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle20" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle21" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle22" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle23" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle24" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle25" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle26" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle27" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle28" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle29" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle30" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle31" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle32" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle33" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle34" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle35" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle36" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle37" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle38" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle39" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle40" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle41" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+                  <Circle fx:id="circle42" fill="WHITE" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+               </children>
+            </FlowPane>
+            <Button fx:id="save" layoutX="15.0" layoutY="60.0" mnemonicParsing="false" onAction="#save" prefHeight="25.0" prefWidth="45.0" text="Save" />
+            <Button fx:id="exit" layoutX="15.0" layoutY="20.0" mnemonicParsing="false" onAction="#exitGame" prefHeight="25.0" prefWidth="45.0" text="Exit" />
+            <FlowPane layoutX="100.0" layoutY="60.0" prefHeight="600.0" prefWidth="700.0">
+               <children>
+                  <Button fx:id="column1" mnemonicParsing="false" onAction="#column1turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column2" mnemonicParsing="false" onAction="#column2turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column3" mnemonicParsing="false" onAction="#column3turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column4" mnemonicParsing="false" onAction="#column4turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column5" mnemonicParsing="false" onAction="#column5turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column6" mnemonicParsing="false" onAction="#column6turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+                  <Button fx:id="column7" mnemonicParsing="false" onAction="#column7turn" opacity="0.5" prefHeight="600.0" prefWidth="100.0" />
+               </children>
+            </FlowPane>
+            <Button fx:id="reset" layoutX="15.0" layoutY="100.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="45.0" text="Reset" />
+            <Label fx:id="winner" layoutX="414.0" layoutY="10.0" text="Label">
+               <font>
+                  <Font size="31.0" />
+               </font>
+            </Label>
+            <ScrollPane fx:id="moveLogScrollPane" hbarPolicy="NEVER" layoutX="680.0" prefHeight="700.0" prefWidth="220.0" vbarPolicy="NEVER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="240.0">
+                     <children>
+                        <Label fx:id="moveLogLabel" alignment="TOP_LEFT" layoutY="60.0" prefHeight="635.0" prefWidth="220.0" text="Label">
+                           <font>
+                              <Font size="14.0" />
+                           </font></Label>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+            <Rectangle fx:id="moveLogRec" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="65.0" layoutX="680.0" stroke="BLACK" strokeType="INSIDE" width="220.0" />
+            <Button fx:id="moveLogButton" layoutX="815.0" layoutY="20.0" mnemonicParsing="false" onAction="#moveLog" prefHeight="25.0" prefWidth="70.0" text="Move Log" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
